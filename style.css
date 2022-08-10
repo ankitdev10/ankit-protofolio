@@ -1,0 +1,158 @@
+/* textcolor #777777
+background #8490ff */
+
+* {
+    background-color: #F0F2F5;
+    margin: 0;
+    padding: 0;
+    font-family: 'Satisfy', cursive;
+    font-family:  sans-serif;
+}
+
+
+/* header {
+    background-color: #FFF8E5;
+    color: #000;
+} */
+
+.navbar{
+    color: #000;
+    /* border: 1px solid red; */
+    max-width: 900px;
+    margin: 2em auto;
+    width: 90%;
+    
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    /* align-items: center; */
+    justify-content: space-around;    
+}
+
+ nav a{
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+    color: #777777;
+    /* padding: 0 3em; */
+    font-size: 1.2rem;
+}
+
+
+nav a:hover{
+    color: aquamarine;
+    border-bottom: 2px solid #777777;
+}
+
+
+
+.welcome{
+    width: 60%;
+    margin: 14em auto;
+    max-width: 600px;
+    text-align: center;
+    line-height: 2em;
+    
+}
+
+.welcome h1,h2{
+    font-weight: 500;
+    padding: 0.25em;
+    word-spacing: 5px;
+}
+
+.special-text{
+    border-bottom: 3px solid rgb(255, 166, 0);
+    color: rgb(211, 58, 58);
+}
+
+.skillset{
+    max-width: 900px;
+    width: 90%;
+    margin: 22em auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.skillset .skillset-title {
+    font-size: 1.8rem;
+    margin: auto;
+    
+}
+.skillset .skillset-images{
+    width: 50%;
+    margin: 2em auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillset .skillset-images img{
+    width: 20%;
+    padding: 0 em;
+}
+
+.project{
+    max-width: 900px;
+    width: 90%;
+    margin: 10em auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.project .project-title{
+    font-size: 1.8rem;
+    /* margin: auto; */
+    
+}
+
+.project .project-images{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.project .project-images img{
+    width: 80%;
+    margin: 1em auto; 
+    border: 2px solid #2C3333;
+    border-radius: 10px;
+    padding: 0.2em;
+}
+
+.contact{
+    max-width: 900px;
+    width: 90%;
+    margin: 10em auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact .contact-title{
+    font-size: 1.8rem;
+}
+
+.contact .contact-icons{
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+
+.contact .contact-icons a{
+    text-decoration: none;
+    padding: 1em;
+    color: black;
+}
+
+.contact-icons h3,h4{
+    font-weight: 400;
+}
+
+.contact .email{
+    color: orange;
+}
